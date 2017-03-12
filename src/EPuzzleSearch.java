@@ -9,7 +9,7 @@
 //import Search;
 //import SearchNode;
 
-import java.util.*;
+import sheffield.*;
 
 public class EPuzzleSearch extends Search {
 
