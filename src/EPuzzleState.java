@@ -40,7 +40,8 @@ public class EPuzzleState extends SearchState{
     return (Arrays.deepEquals(puzzleState, tar));
   }
   
-  public EPuzzleState moveVertical(Integer[][] puzzleState, int column, int oldRow, int newRow) {
+  public EPuzzleState moveVertical(Integer[][] pS, int column, int oldRow, int newRow) {
+	Integer[][] puzzleState = deepCopy(pS);
 	int tmp = puzzleState[newRow][column];
 	puzzleState[newRow][column] = puzzleState[oldRow][column];
   	puzzleState[oldRow][column] = tmp;
@@ -48,7 +49,9 @@ public class EPuzzleState extends SearchState{
   	return new EPuzzleState(puzzleState);
   }
   
-  public EPuzzleState moveHorizontal(Integer[][] puzzleState, int row, int oldColumn, int newColumn) {
+  public EPuzzleState moveHorizontal(Integer[][] pS, int row, int oldColumn, int newColumn) {
+	Integer[][] puzzleState = deepCopy(pS);
+	System.out.println("Passed state was " + new EPuzzleState(puzzleState) + "!");
 	int tmp = puzzleState[row][newColumn];
 	puzzleState[row][newColumn] = puzzleState[row][oldColumn];
   	puzzleState[row][oldColumn] = tmp;
@@ -64,6 +67,14 @@ public class EPuzzleState extends SearchState{
 	  }
 	  return new EPuzzleState(newPuzzleStateGrid);
   }
+  
+  public Integer[][] deepCopy (Integer[][] puzzleState) {
+	  Integer[][] newPuzzleStateGrid = new Integer[3][3];
+	  for (int i = 0; i<3; i++) {
+			newPuzzleStateGrid[i] = puzzleState[i].clone();
+	  }
+	  return newPuzzleStateGrid;
+  }
 
    /**
   * getSuccessors
@@ -73,7 +84,19 @@ public class EPuzzleState extends SearchState{
   public ArrayList<SearchState> getSuccessors (Search searcher) {
     EPuzzleSearch psearcher = (EPuzzleSearch) searcher;
     Integer[][] puzzleState=psearcher.getPuzzleState();
-    //TODO: Find the 0 here and save the index.
+    Integer[][] clonePuzzleState = deepCopy(puzzleState);
+
+    StringBuilder displayGrid = new StringBuilder();
+	for (Integer[] row: clonePuzzleState) {
+		for (int value: row) {
+			displayGrid.append(value);
+		}
+		displayGrid.append("|");
+	}
+	System.out.println("CURRENT STATE:");
+	System.out.println(displayGrid.toString());
+    
+    //Find the 0 here and save the indexes
     boolean zeroFound = false;
     int zColumn = -1;
     int zRow = -1;
@@ -95,37 +118,24 @@ public class EPuzzleState extends SearchState{
 
     //if (j1Space > 0) epslis.add(new EPuzzleState(cap1,j2)); //fill jug1
 
-    EPuzzleState moveState = new EPuzzleState(puzzleState);
-    EPuzzleState sourcePuzzleState = deepCopy(moveState);
-    System.out.println("zRow = " + zRow);
-    System.out.println("zColumn = " + zColumn);
     if (zRow < 2) {
-    	System.out.println("Moving down!");
-    	System.out.println("Copying state from " + sourcePuzzleState);
-    	epslis.add(new EPuzzleState(moveVertical(sourcePuzzleState.get_state(), zColumn, zRow+1, zRow)));
-    	sourcePuzzleState = deepCopy(moveState);
+    	System.out.println("Moving up!");
+    	epslis.add(new EPuzzleState(moveVertical(clonePuzzleState, zColumn, zRow+1, zRow)));
     }
     if (zRow > 0 ) {
-    	System.out.println("Moving up!");
-    	System.out.println("Copying state from " + sourcePuzzleState);
-    	epslis.add(new EPuzzleState(moveVertical(sourcePuzzleState.get_state(), zColumn, zRow-1, zRow)));
-    	sourcePuzzleState = deepCopy(moveState);
+    	System.out.println("Moving down!");
+    	epslis.add(new EPuzzleState(moveVertical(clonePuzzleState, zColumn, zRow-1, zRow)));
     }
     if (zColumn < 2) {
-    	System.out.println("Moving right!");
-    	System.out.println("Copying state from " + sourcePuzzleState);
-    	epslis.add(new EPuzzleState(moveHorizontal(sourcePuzzleState.get_state(), zRow, zColumn+1, zColumn)));
-    	sourcePuzzleState = deepCopy(moveState);
+    	System.out.println("Moving left!");
+    	epslis.add(new EPuzzleState(moveHorizontal(clonePuzzleState, zRow, zColumn+1, zColumn)));
     }
     if (zColumn > 0 ) {
-    	System.out.println("Moving left!");
-    	System.out.println("Copying state from " + sourcePuzzleState);
-    	epslis.add(new EPuzzleState(moveHorizontal(sourcePuzzleState.get_state(), zRow, zColumn-1, zColumn)));
-    	sourcePuzzleState = deepCopy(moveState);    	
+    	System.out.println("Moving right!");
+    	epslis.add(new EPuzzleState(moveHorizontal(clonePuzzleState, zRow, zColumn-1, zColumn))); 	
     }
     // cast the puzzle states as search states in slis
     for (EPuzzleState eps:epslis)slis.add((SearchState)eps);
-
 
     return slis;
 

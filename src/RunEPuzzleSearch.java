@@ -22,7 +22,7 @@ public static void main(String[] arg) {
     // create an EasyWriter
 
     EasyWriter screen = new EasyWriter();
-    Integer[][] initStateGrid = {{2,4,7},{1,3,6},{5,8,0}};
+    Integer[][] initStateGrid = {{1,0,3},{4,2,6},{7,5,8}};
     Integer[][] targetGrid = {{1,2,3},{4,5,6},{7,8,0}};
     EPuzzleSearch searcher = new EPuzzleSearch(initStateGrid,targetGrid);
     SearchState initState = (SearchState) new EPuzzleState(initStateGrid);
