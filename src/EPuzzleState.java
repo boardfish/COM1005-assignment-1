@@ -83,8 +83,7 @@ public class EPuzzleState extends SearchState{
 
   public ArrayList<SearchState> getSuccessors (Search searcher) {
     EPuzzleSearch psearcher = (EPuzzleSearch) searcher;
-    Integer[][] puzzleState=psearcher.getPuzzleState();
-    Integer[][] clonePuzzleState = deepCopy(puzzleState);
+    Integer[][] clonePuzzleState = deepCopy(this.get_state());
 
     StringBuilder displayGrid = new StringBuilder();
 	for (Integer[] row: clonePuzzleState) {
