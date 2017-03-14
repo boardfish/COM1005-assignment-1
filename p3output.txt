@@ -1,0 +1,828 @@
+Starting breadthFirst Search
+iteration no 1
+Current node has state 236|158|470|
+Possible move: 236|150|478|
+Possible move: 236|158|407|
+iteration no 2
+Current node has state 236|150|478|
+Possible move: 236|158|470|
+Possible move: 230|156|478|
+Possible move: 236|105|478|
+iteration no 3
+Current node has state 236|158|407|
+Possible move: 236|108|457|
+Possible move: 236|158|470|
+Possible move: 236|158|047|
+iteration no 4
+Current node has state 230|156|478|
+Possible move: 236|150|478|
+Possible move: 203|156|478|
+iteration no 5
+Current node has state 236|105|478|
+Possible move: 236|175|408|
+Possible move: 206|135|478|
+Possible move: 236|150|478|
+Possible move: 236|015|478|
+iteration no 6
+Current node has state 236|108|457|
+Possible move: 236|158|407|
+Possible move: 206|138|457|
+Possible move: 236|180|457|
+Possible move: 236|018|457|
+iteration no 7
+Current node has state 236|158|047|
+Possible move: 236|058|147|
+Possible move: 236|158|407|
+iteration no 8
+Current node has state 203|156|478|
+Possible move: 253|106|478|
+Possible move: 230|156|478|
+Possible move: 023|156|478|
+iteration no 9
+Current node has state 236|175|408|
+Possible move: 236|105|478|
+Possible move: 236|175|480|
+Possible move: 236|175|048|
+iteration no 10
+Current node has state 206|135|478|
+Possible move: 236|105|478|
+Possible move: 260|135|478|
+Possible move: 026|135|478|
+iteration no 11
+Current node has state 236|015|478|
+Possible move: 236|415|078|
+Possible move: 036|215|478|
+Possible move: 236|105|478|
+iteration no 12
+Current node has state 206|138|457|
+Possible move: 236|108|457|
+Possible move: 260|138|457|
+Possible move: 026|138|457|
+iteration no 13
+Current node has state 236|180|457|
+Possible move: 236|187|450|
+Possible move: 230|186|457|
+Possible move: 236|108|457|
+iteration no 14
+Current node has state 236|018|457|
+Possible move: 236|418|057|
+Possible move: 036|218|457|
+Possible move: 236|108|457|
+iteration no 15
+Current node has state 236|058|147|
+Possible move: 236|158|047|
+Possible move: 036|258|147|
+Possible move: 236|508|147|
+iteration no 16
+Current node has state 253|106|478|
+Possible move: 253|176|408|
+Possible move: 203|156|478|
+Possible move: 253|160|478|
+Possible move: 253|016|478|
+iteration no 17
+Current node has state 023|156|478|
+Possible move: 123|056|478|
+Possible move: 203|156|478|
+iteration no 18
+Current node has state 236|175|480|
+Possible move: 236|170|485|
+Possible move: 236|175|408|
+iteration no 19
+Current node has state 236|175|048|
+Possible move: 236|075|148|
+Possible move: 236|175|408|
+iteration no 20
+Current node has state 260|135|478|
+Possible move: 265|130|478|
+Possible move: 206|135|478|
+iteration no 21
+Current node has state 026|135|478|
+Possible move: 126|035|478|
+Possible move: 206|135|478|
+iteration no 22
+Current node has state 236|415|078|
+Possible move: 236|015|478|
+Possible move: 236|415|708|
+iteration no 23
+Current node has state 036|215|478|
+Possible move: 236|015|478|
+Possible move: 306|215|478|
+iteration no 24
+Current node has state 260|138|457|
+Possible move: 268|130|457|
+Possible move: 206|138|457|
+iteration no 25
+Current node has state 026|138|457|
+Possible move: 126|038|457|
+Possible move: 206|138|457|
+iteration no 26
+Current node has state 236|187|450|
+Possible move: 236|180|457|
+Possible move: 236|187|405|
+iteration no 27
+Current node has state 230|186|457|
+Possible move: 236|180|457|
+Possible move: 203|186|457|
+iteration no 28
+Current node has state 236|418|057|
+Possible move: 236|018|457|
+Possible move: 236|418|507|
+iteration no 29
+Current node has state 036|218|457|
+Possible move: 236|018|457|
+Possible move: 306|218|457|
+iteration no 30
+Current node has state 036|258|147|
+Possible move: 236|058|147|
+Possible move: 306|258|147|
+iteration no 31
+Current node has state 236|508|147|
+Possible move: 236|548|107|
+Possible move: 206|538|147|
+Possible move: 236|580|147|
+Possible move: 236|058|147|
+iteration no 32
+Current node has state 253|176|408|
+Possible move: 253|106|478|
+Possible move: 253|176|480|
+Possible move: 253|176|048|
+iteration no 33
+Current node has state 253|160|478|
+Possible move: 253|168|470|
+Possible move: 250|163|478|
+Possible move: 253|106|478|
+iteration no 34
+Current node has state 253|016|478|
+Possible move: 253|416|078|
+Possible move: 053|216|478|
+Possible move: 253|106|478|
+iteration no 35
+Current node has state 123|056|478|
+Possible move: 123|456|078|
+Possible move: 023|156|478|
+Possible move: 123|506|478|
+iteration no 36
+Current node has state 236|170|485|
+Possible move: 236|175|480|
+Possible move: 230|176|485|
+Possible move: 236|107|485|
+iteration no 37
+Current node has state 236|075|148|
+Possible move: 236|175|048|
+Possible move: 036|275|148|
+Possible move: 236|705|148|
+iteration no 38
+Current node has state 265|130|478|
+Possible move: 265|138|470|
+Possible move: 260|135|478|
+Possible move: 265|103|478|
+iteration no 39
+Current node has state 126|035|478|
+Possible move: 126|435|078|
+Possible move: 026|135|478|
+Possible move: 126|305|478|
+iteration no 40
+Current node has state 236|415|708|
+Possible move: 236|405|718|
+Possible move: 236|415|780|
+Possible move: 236|415|078|
+iteration no 41
+Current node has state 306|215|478|
+Possible move: 316|205|478|
+Possible move: 360|215|478|
+Possible move: 036|215|478|
+iteration no 42
+Current node has state 268|130|457|
+Possible move: 268|137|450|
+Possible move: 260|138|457|
+Possible move: 268|103|457|
+iteration no 43
+Current node has state 126|038|457|
+Possible move: 126|438|057|
+Possible move: 026|138|457|
+Possible move: 126|308|457|
+iteration no 44
+Current node has state 236|187|405|
+Possible move: 236|107|485|
+Possible move: 236|187|450|
+Possible move: 236|187|045|
+iteration no 45
+Current node has state 203|186|457|
+Possible move: 283|106|457|
+Possible move: 230|186|457|
+Possible move: 023|186|457|
+iteration no 46
+Current node has state 236|418|507|
+Possible move: 236|408|517|
+Possible move: 236|418|570|
+Possible move: 236|418|057|
+iteration no 47
+Current node has state 306|218|457|
+Possible move: 316|208|457|
+Possible move: 360|218|457|
+Possible move: 036|218|457|
+iteration no 48
+Current node has state 306|258|147|
+Possible move: 356|208|147|
+Possible move: 360|258|147|
+Possible move: 036|258|147|
+iteration no 49
+Current node has state 236|548|107|
+Possible move: 236|508|147|
+Possible move: 236|548|170|
+Possible move: 236|548|017|
+iteration no 50
+Current node has state 206|538|147|
+Possible move: 236|508|147|
+Possible move: 260|538|147|
+Possible move: 026|538|147|
+iteration no 51
+Current node has state 236|580|147|
+Possible move: 236|587|140|
+Possible move: 230|586|147|
+Possible move: 236|508|147|
+iteration no 52
+Current node has state 253|176|480|
+Possible move: 253|170|486|
+Possible move: 253|176|408|
+iteration no 53
+Current node has state 253|176|048|
+Possible move: 253|076|148|
+Possible move: 253|176|408|
+iteration no 54
+Current node has state 253|168|470|
+Possible move: 253|160|478|
+Possible move: 253|168|407|
+iteration no 55
+Current node has state 250|163|478|
+Possible move: 253|160|478|
+Possible move: 205|163|478|
+iteration no 56
+Current node has state 253|416|078|
+Possible move: 253|016|478|
+Possible move: 253|416|708|
+iteration no 57
+Current node has state 053|216|478|
+Possible move: 253|016|478|
+Possible move: 503|216|478|
+iteration no 58
+Current node has state 123|456|078|
+Possible move: 123|056|478|
+Possible move: 123|456|708|
+iteration no 59
+Current node has state 123|506|478|
+Possible move: 123|576|408|
+Possible move: 103|526|478|
+Possible move: 123|560|478|
+Possible move: 123|056|478|
+iteration no 60
+Current node has state 230|176|485|
+Possible move: 236|170|485|
+Possible move: 203|176|485|
+iteration no 61
+Current node has state 236|107|485|
+Possible move: 236|187|405|
+Possible move: 206|137|485|
+Possible move: 236|170|485|
+Possible move: 236|017|485|
+iteration no 62
+Current node has state 036|275|148|
+Possible move: 236|075|148|
+Possible move: 306|275|148|
+iteration no 63
+Current node has state 236|705|148|
+Possible move: 236|745|108|
+Possible move: 206|735|148|
+Possible move: 236|750|148|
+Possible move: 236|075|148|
+iteration no 64
+Current node has state 265|138|470|
+Possible move: 265|130|478|
+Possible move: 265|138|407|
+iteration no 65
+Current node has state 265|103|478|
+Possible move: 265|173|408|
+Possible move: 205|163|478|
+Possible move: 265|130|478|
+Possible move: 265|013|478|
+iteration no 66
+Current node has state 126|435|078|
+Possible move: 126|035|478|
+Possible move: 126|435|708|
+iteration no 67
+Current node has state 126|305|478|
+Possible move: 126|375|408|
+Possible move: 106|325|478|
+Possible move: 126|350|478|
+Possible move: 126|035|478|
+iteration no 68
+Current node has state 236|405|718|
+Possible move: 236|415|708|
+Possible move: 206|435|718|
+Possible move: 236|450|718|
+Possible move: 236|045|718|
+iteration no 69
+Current node has state 236|415|780|
+Possible move: 236|410|785|
+Possible move: 236|415|708|
+iteration no 70
+Current node has state 316|205|478|
+Possible move: 316|275|408|
+Possible move: 306|215|478|
+Possible move: 316|250|478|
+Possible move: 316|025|478|
+iteration no 71
+Current node has state 360|215|478|
+Possible move: 365|210|478|
+Possible move: 306|215|478|
+iteration no 72
+Current node has state 268|137|450|
+Possible move: 268|130|457|
+Possible move: 268|137|405|
+iteration no 73
+Current node has state 268|103|457|
+Possible move: 268|153|407|
+Possible move: 208|163|457|
+Possible move: 268|130|457|
+Possible move: 268|013|457|
+iteration no 74
+Current node has state 126|438|057|
+Possible move: 126|038|457|
+Possible move: 126|438|507|
+iteration no 75
+Current node has state 126|308|457|
+Possible move: 126|358|407|
+Possible move: 106|328|457|
+Possible move: 126|380|457|
+Possible move: 126|038|457|
+iteration no 76
+Current node has state 236|187|045|
+Possible move: 236|087|145|
+Possible move: 236|187|405|
+iteration no 77
+Current node has state 283|106|457|
+Possible move: 283|156|407|
+Possible move: 203|186|457|
+Possible move: 283|160|457|
+Possible move: 283|016|457|
+iteration no 78
+Current node has state 023|186|457|
+Possible move: 123|086|457|
+Possible move: 203|186|457|
+iteration no 79
+Current node has state 236|408|517|
+Possible move: 236|418|507|
+Possible move: 206|438|517|
+Possible move: 236|480|517|
+Possible move: 236|048|517|
+iteration no 80
+Current node has state 236|418|570|
+Possible move: 236|410|578|
+Possible move: 236|418|507|
+iteration no 81
+Current node has state 316|208|457|
+Possible move: 316|258|407|
+Possible move: 306|218|457|
+Possible move: 316|280|457|
+Possible move: 316|028|457|
+iteration no 82
+Current node has state 360|218|457|
+Possible move: 368|210|457|
+Possible move: 306|218|457|
+iteration no 83
+Current node has state 356|208|147|
+Possible move: 356|248|107|
+Possible move: 306|258|147|
+Possible move: 356|280|147|
+Possible move: 356|028|147|
+iteration no 84
+Current node has state 360|258|147|
+Possible move: 368|250|147|
+Possible move: 306|258|147|
+iteration no 85
+Current node has state 236|548|170|
+Possible move: 236|540|178|
+Possible move: 236|548|107|
+iteration no 86
+Current node has state 236|548|017|
+Possible move: 236|048|517|
+Possible move: 236|548|107|
+iteration no 87
+Current node has state 260|538|147|
+Possible move: 268|530|147|
+Possible move: 206|538|147|
+iteration no 88
+Current node has state 026|538|147|
+Possible move: 526|038|147|
+Possible move: 206|538|147|
+iteration no 89
+Current node has state 236|587|140|
+Possible move: 236|580|147|
+Possible move: 236|587|104|
+iteration no 90
+Current node has state 230|586|147|
+Possible move: 236|580|147|
+Possible move: 203|586|147|
+iteration no 91
+Current node has state 253|170|486|
+Possible move: 253|176|480|
+Possible move: 250|173|486|
+Possible move: 253|107|486|
+iteration no 92
+Current node has state 253|076|148|
+Possible move: 253|176|048|
+Possible move: 053|276|148|
+Possible move: 253|706|148|
+iteration no 93
+Current node has state 253|168|407|
+Possible move: 253|108|467|
+Possible move: 253|168|470|
+Possible move: 253|168|047|
+iteration no 94
+Current node has state 205|163|478|
+Possible move: 265|103|478|
+Possible move: 250|163|478|
+Possible move: 025|163|478|
+iteration no 95
+Current node has state 253|416|708|
+Possible move: 253|406|718|
+Possible move: 253|416|780|
+Possible move: 253|416|078|
+iteration no 96
+Current node has state 503|216|478|
+Possible move: 513|206|478|
+Possible move: 530|216|478|
+Possible move: 053|216|478|
+iteration no 97
+Current node has state 123|456|708|
+Possible move: 123|406|758|
+Possible move: 123|456|780|
+Possible move: 123|456|078|
+iteration no 98
+Current node has state 123|576|408|
+Possible move: 123|506|478|
+Possible move: 123|576|480|
+Possible move: 123|576|048|
+iteration no 99
+Current node has state 103|526|478|
+Possible move: 123|506|478|
+Possible move: 130|526|478|
+Possible move: 013|526|478|
+iteration no 100
+Current node has state 123|560|478|
+Possible move: 123|568|470|
+Possible move: 120|563|478|
+Possible move: 123|506|478|
+iteration no 101
+Current node has state 203|176|485|
+Possible move: 273|106|485|
+Possible move: 230|176|485|
+Possible move: 023|176|485|
+iteration no 102
+Current node has state 206|137|485|
+Possible move: 236|107|485|
+Possible move: 260|137|485|
+Possible move: 026|137|485|
+iteration no 103
+Current node has state 236|017|485|
+Possible move: 236|417|085|
+Possible move: 036|217|485|
+Possible move: 236|107|485|
+iteration no 104
+Current node has state 306|275|148|
+Possible move: 376|205|148|
+Possible move: 360|275|148|
+Possible move: 036|275|148|
+iteration no 105
+Current node has state 236|745|108|
+Possible move: 236|705|148|
+Possible move: 236|745|180|
+Possible move: 236|745|018|
+iteration no 106
+Current node has state 206|735|148|
+Possible move: 236|705|148|
+Possible move: 260|735|148|
+Possible move: 026|735|148|
+iteration no 107
+Current node has state 236|750|148|
+Possible move: 236|758|140|
+Possible move: 230|756|148|
+Possible move: 236|705|148|
+iteration no 108
+Current node has state 265|138|407|
+Possible move: 265|108|437|
+Possible move: 265|138|470|
+Possible move: 265|138|047|
+iteration no 109
+Current node has state 265|173|408|
+Possible move: 265|103|478|
+Possible move: 265|173|480|
+Possible move: 265|173|048|
+iteration no 110
+Current node has state 265|013|478|
+Possible move: 265|413|078|
+Possible move: 065|213|478|
+Possible move: 265|103|478|
+iteration no 111
+Current node has state 126|435|708|
+Possible move: 126|405|738|
+Possible move: 126|435|780|
+Possible move: 126|435|078|
+iteration no 112
+Current node has state 126|375|408|
+Possible move: 126|305|478|
+Possible move: 126|375|480|
+Possible move: 126|375|048|
+iteration no 113
+Current node has state 106|325|478|
+Possible move: 126|305|478|
+Possible move: 160|325|478|
+Possible move: 016|325|478|
+iteration no 114
+Current node has state 126|350|478|
+Possible move: 126|358|470|
+Possible move: 120|356|478|
+Possible move: 126|305|478|
+iteration no 115
+Current node has state 206|435|718|
+Possible move: 236|405|718|
+Possible move: 260|435|718|
+Possible move: 026|435|718|
+iteration no 116
+Current node has state 236|450|718|
+Possible move: 236|458|710|
+Possible move: 230|456|718|
+Possible move: 236|405|718|
+iteration no 117
+Current node has state 236|045|718|
+Possible move: 236|745|018|
+Possible move: 036|245|718|
+Possible move: 236|405|718|
+iteration no 118
+Current node has state 236|410|785|
+Possible move: 236|415|780|
+Possible move: 230|416|785|
+Possible move: 236|401|785|
+iteration no 119
+Current node has state 316|275|408|
+Possible move: 316|205|478|
+Possible move: 316|275|480|
+Possible move: 316|275|048|
+iteration no 120
+Current node has state 316|250|478|
+Possible move: 316|258|470|
+Possible move: 310|256|478|
+Possible move: 316|205|478|
+iteration no 121
+Current node has state 316|025|478|
+Possible move: 316|425|078|
+Possible move: 016|325|478|
+Possible move: 316|205|478|
+iteration no 122
+Current node has state 365|210|478|
+Possible move: 365|218|470|
+Possible move: 360|215|478|
+Possible move: 365|201|478|
+iteration no 123
+Current node has state 268|137|405|
+Possible move: 268|107|435|
+Possible move: 268|137|450|
+Possible move: 268|137|045|
+iteration no 124
+Current node has state 268|153|407|
+Possible move: 268|103|457|
+Possible move: 268|153|470|
+Possible move: 268|153|047|
+iteration no 125
+Current node has state 208|163|457|
+Possible move: 268|103|457|
+Possible move: 280|163|457|
+Possible move: 028|163|457|
+iteration no 126
+Current node has state 268|013|457|
+Possible move: 268|413|057|
+Possible move: 068|213|457|
+Possible move: 268|103|457|
+iteration no 127
+Current node has state 126|438|507|
+Possible move: 126|408|537|
+Possible move: 126|438|570|
+Possible move: 126|438|057|
+iteration no 128
+Current node has state 126|358|407|
+Possible move: 126|308|457|
+Possible move: 126|358|470|
+Possible move: 126|358|047|
+iteration no 129
+Current node has state 106|328|457|
+Possible move: 126|308|457|
+Possible move: 160|328|457|
+Possible move: 016|328|457|
+iteration no 130
+Current node has state 126|380|457|
+Possible move: 126|387|450|
+Possible move: 120|386|457|
+Possible move: 126|308|457|
+iteration no 131
+Current node has state 236|087|145|
+Possible move: 236|187|045|
+Possible move: 036|287|145|
+Possible move: 236|807|145|
+iteration no 132
+Current node has state 283|156|407|
+Possible move: 283|106|457|
+Possible move: 283|156|470|
+Possible move: 283|156|047|
+iteration no 133
+Current node has state 283|160|457|
+Possible move: 283|167|450|
+Possible move: 280|163|457|
+Possible move: 283|106|457|
+iteration no 134
+Current node has state 283|016|457|
+Possible move: 283|416|057|
+Possible move: 083|216|457|
+Possible move: 283|106|457|
+iteration no 135
+Current node has state 123|086|457|
+Possible move: 123|486|057|
+Possible move: 023|186|457|
+Possible move: 123|806|457|
+iteration no 136
+Current node has state 206|438|517|
+Possible move: 236|408|517|
+Possible move: 260|438|517|
+Possible move: 026|438|517|
+iteration no 137
+Current node has state 236|480|517|
+Possible move: 236|487|510|
+Possible move: 230|486|517|
+Possible move: 236|408|517|
+iteration no 138
+Current node has state 236|048|517|
+Possible move: 236|548|017|
+Possible move: 036|248|517|
+Possible move: 236|408|517|
+iteration no 139
+Current node has state 236|410|578|
+Possible move: 236|418|570|
+Possible move: 230|416|578|
+Possible move: 236|401|578|
+iteration no 140
+Current node has state 316|258|407|
+Possible move: 316|208|457|
+Possible move: 316|258|470|
+Possible move: 316|258|047|
+iteration no 141
+Current node has state 316|280|457|
+Possible move: 316|287|450|
+Possible move: 310|286|457|
+Possible move: 316|208|457|
+iteration no 142
+Current node has state 316|028|457|
+Possible move: 316|428|057|
+Possible move: 016|328|457|
+Possible move: 316|208|457|
+iteration no 143
+Current node has state 368|210|457|
+Possible move: 368|217|450|
+Possible move: 360|218|457|
+Possible move: 368|201|457|
+iteration no 144
+Current node has state 356|248|107|
+Possible move: 356|208|147|
+Possible move: 356|248|170|
+Possible move: 356|248|017|
+iteration no 145
+Current node has state 356|280|147|
+Possible move: 356|287|140|
+Possible move: 350|286|147|
+Possible move: 356|208|147|
+iteration no 146
+Current node has state 356|028|147|
+Possible move: 356|128|047|
+Possible move: 056|328|147|
+Possible move: 356|208|147|
+iteration no 147
+Current node has state 368|250|147|
+Possible move: 368|257|140|
+Possible move: 360|258|147|
+Possible move: 368|205|147|
+iteration no 148
+Current node has state 236|540|178|
+Possible move: 236|548|170|
+Possible move: 230|546|178|
+Possible move: 236|504|178|
+iteration no 149
+Current node has state 268|530|147|
+Possible move: 268|537|140|
+Possible move: 260|538|147|
+Possible move: 268|503|147|
+iteration no 150
+Current node has state 526|038|147|
+Possible move: 526|138|047|
+Possible move: 026|538|147|
+Possible move: 526|308|147|
+iteration no 151
+Current node has state 236|587|104|
+Possible move: 236|507|184|
+Possible move: 236|587|140|
+Possible move: 236|587|014|
+iteration no 152
+Current node has state 203|586|147|
+Possible move: 283|506|147|
+Possible move: 230|586|147|
+Possible move: 023|586|147|
+iteration no 153
+Current node has state 250|173|486|
+Possible move: 253|170|486|
+Possible move: 205|173|486|
+iteration no 154
+Current node has state 253|107|486|
+Possible move: 253|187|406|
+Possible move: 203|157|486|
+Possible move: 253|170|486|
+Possible move: 253|017|486|
+iteration no 155
+Current node has state 053|276|148|
+Possible move: 253|076|148|
+Possible move: 503|276|148|
+iteration no 156
+Current node has state 253|706|148|
+Possible move: 253|746|108|
+Possible move: 203|756|148|
+Possible move: 253|760|148|
+Possible move: 253|076|148|
+iteration no 157
+Current node has state 253|108|467|
+Possible move: 253|168|407|
+Possible move: 203|158|467|
+Possible move: 253|180|467|
+Possible move: 253|018|467|
+iteration no 158
+Current node has state 253|168|047|
+Possible move: 253|068|147|
+Possible move: 253|168|407|
+iteration no 159
+Current node has state 025|163|478|
+Possible move: 125|063|478|
+Possible move: 205|163|478|
+iteration no 160
+Current node has state 253|406|718|
+Possible move: 253|416|708|
+Possible move: 203|456|718|
+Possible move: 253|460|718|
+Possible move: 253|046|718|
+iteration no 161
+Current node has state 253|416|780|
+Possible move: 253|410|786|
+Possible move: 253|416|708|
+iteration no 162
+Current node has state 513|206|478|
+Possible move: 513|276|408|
+Possible move: 503|216|478|
+Possible move: 513|260|478|
+Possible move: 513|026|478|
+iteration no 163
+Current node has state 530|216|478|
+Possible move: 536|210|478|
+Possible move: 503|216|478|
+iteration no 164
+Current node has state 123|406|758|
+Possible move: 123|456|708|
+Possible move: 103|426|758|
+Possible move: 123|460|758|
+Possible move: 123|046|758|
+iteration no 165
+Current node has state 123|456|780|
+===========================
+
+Search Succeeds
+Efficiency 0.054545455
+Solution Path
+
+has state 236|158|470|
+has state 236|150|478|
+has state 230|156|478|
+has state 203|156|478|
+has state 023|156|478|
+has state 123|056|478|
+has state 123|456|078|
+has state 123|456|708|
+has state 123|456|780|
+has state 413|725|086|
+has state 413|025|786|
+has state 013|425|786|
+has state 103|425|786|
+has state 123|405|786|
+has state 123|450|786|
+has state 123|456|780|
+has state 236|158|470|
+has state 236|150|478|
+has state 230|156|478|
+has state 203|156|478|
+has state 023|156|478|
+has state 123|056|478|
+has state 123|456|078|
+has state 123|456|708|
+has state 123|456|780|

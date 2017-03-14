@@ -1,0 +1,57 @@
+Starting breadthFirst Search
+iteration no 1
+Current node has state 103|426|758|
+Possible move: 123|406|758|!
+Possible move: 130|426|758|!
+Possible move: 013|426|758|!
+iteration no 2
+Current node has state 123|406|758|
+Possible move: 123|456|708|!
+Possible move: 103|426|758|!
+Possible move: 123|460|758|!
+Possible move: 123|046|758|!
+iteration no 3
+Current node has state 130|426|758|
+Possible move: 136|420|758|!
+Possible move: 103|426|758|!
+iteration no 4
+Current node has state 013|426|758|
+Possible move: 413|026|758|!
+Possible move: 103|426|758|!
+iteration no 5
+Current node has state 123|456|708|
+Possible move: 123|406|758|!
+Possible move: 123|456|780|!
+Possible move: 123|456|078|!
+iteration no 6
+Current node has state 123|460|758|
+Possible move: 123|468|750|!
+Possible move: 120|463|758|!
+Possible move: 123|406|758|!
+iteration no 7
+Current node has state 123|046|758|
+Possible move: 123|746|058|!
+Possible move: 023|146|758|!
+Possible move: 123|406|758|!
+iteration no 8
+Current node has state 136|420|758|
+Possible move: 136|428|750|!
+Possible move: 130|426|758|!
+Possible move: 136|402|758|!
+iteration no 9
+Current node has state 413|026|758|
+Possible move: 413|726|058|!
+Possible move: 013|426|758|!
+Possible move: 413|206|758|!
+iteration no 10
+Current node has state 123|456|780|
+===========================
+
+Search Succeeds
+Efficiency 0.4
+Solution Path
+
+has state 103|426|758|
+has state 123|406|758|
+has state 123|456|708|
+has state 123|456|780|

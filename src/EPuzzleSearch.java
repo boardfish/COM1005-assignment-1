@@ -2,7 +2,7 @@
 *	EPuzzleSearch.java
 *
 *	search for 8 puzzle problems
-*   2017 version
+* March 2017, undying-fish
 */
 
 
@@ -44,13 +44,3 @@ public class EPuzzleSearch extends Search {
 	return target;
     }
 }
-
-
-
-
-
-
-
-
-
-

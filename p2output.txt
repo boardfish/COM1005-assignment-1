@@ -1,0 +1,338 @@
+Starting breadthFirst Search
+iteration no 1
+Current node has state 413|725|086|
+Possible move: 413|025|786|!
+Passed state was 413|725|086|!
+Possible move: 413|725|806|!
+iteration no 2
+Current node has state 413|025|786|
+Possible move: 413|725|086|!
+Possible move: 013|425|786|!
+Passed state was 413|025|786|!
+Possible move: 413|205|786|!
+iteration no 3
+Current node has state 413|725|806|
+Possible move: 413|705|826|!
+Passed state was 413|725|806|!
+Possible move: 413|725|860|!
+Passed state was 413|725|806|!
+Possible move: 413|725|086|!
+iteration no 4
+Current node has state 013|425|786|
+Possible move: 413|025|786|!
+Passed state was 013|425|786|!
+Possible move: 103|425|786|!
+iteration no 5
+Current node has state 413|205|786|
+Possible move: 413|285|706|!
+Possible move: 403|215|786|!
+Passed state was 413|205|786|!
+Possible move: 413|250|786|!
+Passed state was 413|205|786|!
+Possible move: 413|025|786|!
+iteration no 6
+Current node has state 413|705|826|
+Possible move: 413|725|806|!
+Possible move: 403|715|826|!
+Passed state was 413|705|826|!
+Possible move: 413|750|826|!
+Passed state was 413|705|826|!
+Possible move: 413|075|826|!
+iteration no 7
+Current node has state 413|725|860|
+Possible move: 413|720|865|!
+Passed state was 413|725|860|!
+Possible move: 413|725|806|!
+iteration no 8
+Current node has state 103|425|786|
+Possible move: 123|405|786|!
+Passed state was 103|425|786|!
+Possible move: 130|425|786|!
+Passed state was 103|425|786|!
+Possible move: 013|425|786|!
+iteration no 9
+Current node has state 413|285|706|
+Possible move: 413|205|786|!
+Passed state was 413|285|706|!
+Possible move: 413|285|760|!
+Passed state was 413|285|706|!
+Possible move: 413|285|076|!
+iteration no 10
+Current node has state 403|215|786|
+Possible move: 413|205|786|!
+Passed state was 403|215|786|!
+Possible move: 430|215|786|!
+Passed state was 403|215|786|!
+Possible move: 043|215|786|!
+iteration no 11
+Current node has state 413|250|786|
+Possible move: 413|256|780|!
+Possible move: 410|253|786|!
+Passed state was 413|250|786|!
+Possible move: 413|205|786|!
+iteration no 12
+Current node has state 403|715|826|
+Possible move: 413|705|826|!
+Passed state was 403|715|826|!
+Possible move: 430|715|826|!
+Passed state was 403|715|826|!
+Possible move: 043|715|826|!
+iteration no 13
+Current node has state 413|750|826|
+Possible move: 413|756|820|!
+Possible move: 410|753|826|!
+Passed state was 413|750|826|!
+Possible move: 413|705|826|!
+iteration no 14
+Current node has state 413|075|826|
+Possible move: 413|875|026|!
+Possible move: 013|475|826|!
+Passed state was 413|075|826|!
+Possible move: 413|705|826|!
+iteration no 15
+Current node has state 413|720|865|
+Possible move: 413|725|860|!
+Possible move: 410|723|865|!
+Passed state was 413|720|865|!
+Possible move: 413|702|865|!
+iteration no 16
+Current node has state 123|405|786|
+Possible move: 123|485|706|!
+Possible move: 103|425|786|!
+Passed state was 123|405|786|!
+Possible move: 123|450|786|!
+Passed state was 123|405|786|!
+Possible move: 123|045|786|!
+iteration no 17
+Current node has state 130|425|786|
+Possible move: 135|420|786|!
+Passed state was 130|425|786|!
+Possible move: 103|425|786|!
+iteration no 18
+Current node has state 413|285|760|
+Possible move: 413|280|765|!
+Passed state was 413|285|760|!
+Possible move: 413|285|706|!
+iteration no 19
+Current node has state 413|285|076|
+Possible move: 413|085|276|!
+Passed state was 413|285|076|!
+Possible move: 413|285|706|!
+iteration no 20
+Current node has state 430|215|786|
+Possible move: 435|210|786|!
+Passed state was 430|215|786|!
+Possible move: 403|215|786|!
+iteration no 21
+Current node has state 043|215|786|
+Possible move: 243|015|786|!
+Passed state was 043|215|786|!
+Possible move: 403|215|786|!
+iteration no 22
+Current node has state 413|256|780|
+Possible move: 413|250|786|!
+Passed state was 413|256|780|!
+Possible move: 413|256|708|!
+iteration no 23
+Current node has state 410|253|786|
+Possible move: 413|250|786|!
+Passed state was 410|253|786|!
+Possible move: 401|253|786|!
+iteration no 24
+Current node has state 430|715|826|
+Possible move: 435|710|826|!
+Passed state was 430|715|826|!
+Possible move: 403|715|826|!
+iteration no 25
+Current node has state 043|715|826|
+Possible move: 743|015|826|!
+Passed state was 043|715|826|!
+Possible move: 403|715|826|!
+iteration no 26
+Current node has state 413|756|820|
+Possible move: 413|750|826|!
+Passed state was 413|756|820|!
+Possible move: 413|756|802|!
+iteration no 27
+Current node has state 410|753|826|
+Possible move: 413|750|826|!
+Passed state was 410|753|826|!
+Possible move: 401|753|826|!
+iteration no 28
+Current node has state 413|875|026|
+Possible move: 413|075|826|!
+Passed state was 413|875|026|!
+Possible move: 413|875|206|!
+iteration no 29
+Current node has state 013|475|826|
+Possible move: 413|075|826|!
+Passed state was 013|475|826|!
+Possible move: 103|475|826|!
+iteration no 30
+Current node has state 410|723|865|
+Possible move: 413|720|865|!
+Passed state was 410|723|865|!
+Possible move: 401|723|865|!
+iteration no 31
+Current node has state 413|702|865|
+Possible move: 413|762|805|!
+Possible move: 403|712|865|!
+Passed state was 413|702|865|!
+Possible move: 413|720|865|!
+Passed state was 413|702|865|!
+Possible move: 413|072|865|!
+iteration no 32
+Current node has state 123|485|706|
+Possible move: 123|405|786|!
+Passed state was 123|485|706|!
+Possible move: 123|485|760|!
+Passed state was 123|485|706|!
+Possible move: 123|485|076|!
+iteration no 33
+Current node has state 123|450|786|
+Possible move: 123|456|780|!
+Possible move: 120|453|786|!
+Passed state was 123|450|786|!
+Possible move: 123|405|786|!
+iteration no 34
+Current node has state 123|045|786|
+Possible move: 123|745|086|!
+Possible move: 023|145|786|!
+Passed state was 123|045|786|!
+Possible move: 123|405|786|!
+iteration no 35
+Current node has state 135|420|786|
+Possible move: 135|426|780|!
+Possible move: 130|425|786|!
+Passed state was 135|420|786|!
+Possible move: 135|402|786|!
+iteration no 36
+Current node has state 413|280|765|
+Possible move: 413|285|760|!
+Possible move: 410|283|765|!
+Passed state was 413|280|765|!
+Possible move: 413|208|765|!
+iteration no 37
+Current node has state 413|085|276|
+Possible move: 413|285|076|!
+Possible move: 013|485|276|!
+Passed state was 413|085|276|!
+Possible move: 413|805|276|!
+iteration no 38
+Current node has state 435|210|786|
+Possible move: 435|216|780|!
+Possible move: 430|215|786|!
+Passed state was 435|210|786|!
+Possible move: 435|201|786|!
+iteration no 39
+Current node has state 243|015|786|
+Possible move: 243|715|086|!
+Possible move: 043|215|786|!
+Passed state was 243|015|786|!
+Possible move: 243|105|786|!
+iteration no 40
+Current node has state 413|256|708|
+Possible move: 413|206|758|!
+Passed state was 413|256|708|!
+Possible move: 413|256|780|!
+Passed state was 413|256|708|!
+Possible move: 413|256|078|!
+iteration no 41
+Current node has state 401|253|786|
+Possible move: 451|203|786|!
+Passed state was 401|253|786|!
+Possible move: 410|253|786|!
+Passed state was 401|253|786|!
+Possible move: 041|253|786|!
+iteration no 42
+Current node has state 435|710|826|
+Possible move: 435|716|820|!
+Possible move: 430|715|826|!
+Passed state was 435|710|826|!
+Possible move: 435|701|826|!
+iteration no 43
+Current node has state 743|015|826|
+Possible move: 743|815|026|!
+Possible move: 043|715|826|!
+Passed state was 743|015|826|!
+Possible move: 743|105|826|!
+iteration no 44
+Current node has state 413|756|802|
+Possible move: 413|706|852|!
+Passed state was 413|756|802|!
+Possible move: 413|756|820|!
+Passed state was 413|756|802|!
+Possible move: 413|756|082|!
+iteration no 45
+Current node has state 401|753|826|
+Possible move: 451|703|826|!
+Passed state was 401|753|826|!
+Possible move: 410|753|826|!
+Passed state was 401|753|826|!
+Possible move: 041|753|826|!
+iteration no 46
+Current node has state 413|875|206|
+Possible move: 413|805|276|!
+Passed state was 413|875|206|!
+Possible move: 413|875|260|!
+Passed state was 413|875|206|!
+Possible move: 413|875|026|!
+iteration no 47
+Current node has state 103|475|826|
+Possible move: 173|405|826|!
+Passed state was 103|475|826|!
+Possible move: 130|475|826|!
+Passed state was 103|475|826|!
+Possible move: 013|475|826|!
+iteration no 48
+Current node has state 401|723|865|
+Possible move: 421|703|865|!
+Passed state was 401|723|865|!
+Possible move: 410|723|865|!
+Passed state was 401|723|865|!
+Possible move: 041|723|865|!
+iteration no 49
+Current node has state 413|762|805|
+Possible move: 413|702|865|!
+Passed state was 413|762|805|!
+Possible move: 413|762|850|!
+Passed state was 413|762|805|!
+Possible move: 413|762|085|!
+iteration no 50
+Current node has state 403|712|865|
+Possible move: 413|702|865|!
+Passed state was 403|712|865|!
+Possible move: 430|712|865|!
+Passed state was 403|712|865|!
+Possible move: 043|712|865|!
+iteration no 51
+Current node has state 413|072|865|
+Possible move: 413|872|065|!
+Possible move: 013|472|865|!
+Passed state was 413|072|865|!
+Possible move: 413|702|865|!
+iteration no 52
+Current node has state 123|485|760|
+Possible move: 123|480|765|!
+Passed state was 123|485|760|!
+Possible move: 123|485|706|!
+iteration no 53
+Current node has state 123|485|076|
+Possible move: 123|085|476|!
+Passed state was 123|485|076|!
+Possible move: 123|485|706|!
+iteration no 54
+Current node has state 123|456|780|
+===========================
+
+Search Succeeds
+Efficiency 0.12962963
+Solution Path
+
+has state 413|725|086|
+has state 413|025|786|
+has state 013|425|786|
+has state 103|425|786|
+has state 123|405|786|
+has state 123|450|786|
+has state 123|456|780|
